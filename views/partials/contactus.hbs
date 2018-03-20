@@ -1,0 +1,54 @@
+<section id="contact">
+    <div class="container">
+        <div class="col-sm-12" style="margin-top: 80px;">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/banners/contact.jpg" id="about-logo">
+                </div>
+                <div class="col-md-6">
+                    <form class="hm_contact_form" method="post" action="sendmail" >
+                        <div class="form_row clearfix">
+                            <label for="contact-us-name">
+                                <span class="hm_field_name">Name</span>
+                                <span class="hm_requires_star">*</span>
+                            </label>
+                            <input class="form_fill_fields hm_input_text" type="text" name="cust_name" required="">
+                        </div>
+                        <div class="form_row clearfix">
+                            <label for="contact-us-mail">
+                                <span class="hm_field_name">Email</span>
+                                <span class="hm_requires_star">*</span>
+                            </label>
+                            <input class="form_fill_fields hm_input_text" type="email" name="cust_mail" required="">
+                        </div>
+                        <div class="form_row clearfix">
+                            <label for="contact-us-phone">
+                                <span class="hm_field_name">Phone</span>
+                                <span class="hm_requires_star">*</span>
+                            </label>
+                            <input class="form_fill_fields hm_input_text" type="text" required="" name="cust_phone">
+                        </div>
+                        <div class="form_row clearfix">
+                            <label for="contact-us-subject">
+                                <span class="hm_field_name">Subject</span>
+                                <span class="hm_requires_star">*</span>
+                            </label>
+                            <input class="form_fill_fields hm_input_text" type="text" required="" name="cust_subject">
+                        </div>
+                        <div class="form_row clearfix">
+                            <label for="contact-us-message">
+                                <span class="hm_field_name">Message</span>
+                                <span class="hm_requires_star">*</span>
+                            </label>
+                            <textarea class="form_fill_fields hm_textarea" name="cust_message" required=""></textarea>
+                        </div>
+                        <div class="form_row">
+                            <button class="cont-submit" id="submit" name="submit" style="margin-bottom: 30px;">Send</button>
+                        </div>                        
+                        <div class="form_loader"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

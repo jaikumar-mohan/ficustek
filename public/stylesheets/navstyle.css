@@ -1,0 +1,9 @@
+.header-bar-inner {
+    background-color: #135D6F;
+    position: relative;
+    z-index: 7;
+}
+
+body{
+	background-color: #135D6F;
+}

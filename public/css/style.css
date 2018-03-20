@@ -1,0 +1,115 @@
+/*
+Animate Bootstrap Carousel
+Element by thecodeblock.com
+*/
+/********************************/
+/*       Coloring indicators    */
+/********************************/
+.carousel-animate .carousel-indicators > li {
+  margin: 0 2px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: .7;
+}
+.carousel-animate .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.carousel-animate .hero {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {
+  padding: 10px 40px;
+}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+  color: #f5f5f5;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  outline: none;
+  margin: 20px auto;
+}
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (max-width: 640px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+}
+/********************************/
+/*          Fade Effect         */
+/********************************/
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+/************************************/
+/*       BS bacground Images       */
+/**********************************/
+.carousel-bg .carousel-inner .item {
+  background-color: darkslategrey;
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
+
+p {
+  color: #777;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0 0 15px;
+  text-align: justify; 
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.section-title p {
+  padding: 0px 300px;
+}
+
+.section-title{
+  margin-top:150px;
+  margin-bottom:50px;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    /* background-color: #f5f5f5; */
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ficustech",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ficus Teknology Solutions ",
+  "main": "appstart.js",
+  "scripts": {
+    "start": "node appstart.js",
+    "deploy": "gcloud app deploy"
+  },
+  "engines": {
+    "node": ">=6.10.2"
+  },
+  "author": "Ficus",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.4.1",
+    "popups": "^1.1.3",
+    "window-popup": "^1.1.0"
+  }
+}
